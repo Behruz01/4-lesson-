@@ -10,7 +10,7 @@ const flag = document.querySelector("#flag");
 const weather = document.querySelector("#weather");
 const region = document.querySelector("#region");
 
-elInput.addEventListener("change", (evt) => {
+elInput.addEventListener("input", (evt) => {
   const value = evt.target.value;
 
   function state() {
